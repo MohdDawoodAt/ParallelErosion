@@ -120,7 +120,7 @@ int main()
         {
             fprintf(outputFile, "%d ", result[i][j]);
         }
-        fprintf(outputFile, "\n");
+        fprintf(outputFile, "l\n");
     }
 
     fclose(outputFile);
